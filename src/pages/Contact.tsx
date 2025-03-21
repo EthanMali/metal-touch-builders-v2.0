@@ -142,7 +142,7 @@ const Contact = () => {
                     {
                       icon: Mail,
                       title: 'Email',
-                      content: 'placeholder@placeholder.com',
+                      content: 'dimitrygantyuk@gmail.com',
                       description: 'We typically respond within 24 hours',
                     },
                     {

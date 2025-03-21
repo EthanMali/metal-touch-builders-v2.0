@@ -7,7 +7,7 @@ const LocationsMap: React.FC = () => {
     const map = L.map('map', {
       zoomControl: false, // Hide default zoom buttons
       scrollWheelZoom: false, // Disable scroll zoom for better UX
-    }).setView([37.071482, -93.255503], 9);
+    }).setView([37.071482, -93.255503], 5);
     // Use a visually appealing tile layer (CartoDB Positron)
     L.tileLayer(
       'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
@@ -17,24 +17,13 @@ const LocationsMap: React.FC = () => {
       }
     ).addTo(map);
 
-    // Define a stylish service area polygon
-    L.polygon(
-      [
-        [37.287069, -93.071013],
-        [37.339496, -93.282499],
-        [37.265214, -93.463774],
-        [37.039735, -93.535185],
-        [36.580149, -93.296232],
-        [36.58456, -93.216582],
-        [37.094525, -92.988615],
-      ],
-      {
-        color: '#e1b218',
-        fillColor: '#e1b218',
-        fillOpacity: 0.3,
-        weight: 2,
-      }
-    ).addTo(map);
+    L.circle([37.208957, -93.292299], {
+      radius: 700000, // Radius in meters (adjust as needed)
+      color: "#facc15",
+      fillColor: "#fbde6c",
+      fillOpacity: 0.3
+  }).addTo(map);
+  
 
     return () => {
       map.remove();
