@@ -155,7 +155,7 @@ const Home = () => {
 
           {/* Service Area Tags */}
           <div className="flex flex-wrap gap-4">
-            {['Springfield, MO', 'Kansas City, MO', 'St Louis, MO', 'Memphis, TN', 'Des Moines IA', 'Oklahoma City, OK', 'Wichita, KS'].map(
+            {['Springfield, MO', 'St Louis, MO', 'Memphis, TN', 'Des Moines IA', 'Oklahoma City, OK', 'Wichita, KS'].map(
               (location, index) => (
                 <div
                   key={index}
