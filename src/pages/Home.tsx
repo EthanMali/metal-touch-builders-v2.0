@@ -29,7 +29,7 @@ const Home = () => {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              'url("https://raw.githubusercontent.com/EthanMali/Metal-touch/refs/heads/main/landing-page.jpg")',
+              'url("https://raw.githubusercontent.com/EthanMali/Metal-touch-Images-bin/refs/heads/main/landing-page.jpg")',
           }}
         >
           <div className="absolute inset-0 bg-black/60"></div>
@@ -181,7 +181,7 @@ const Home = () => {
       <h1 className="mt-20 text-4xl font-bold flex justify-center">
         What We Offer
       </h1>
-      <p className="flex justify-center text-lg text-gray-600 leading-relaxed">
+      <p className="text-lg text-gray-600 leading-relaxed text-center">
         Delivering excellence in construction and customer satisfaction.
       </p>
       <section className="py-20">
