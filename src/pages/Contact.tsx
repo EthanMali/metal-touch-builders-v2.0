@@ -112,7 +112,7 @@ const Contact = () => {
               </p>
               <div className="flex flex-wrap gap-4">
                 <motion.a
-                  href="tel:+1234567890"
+                  href="tel:+4172521024"
                   className="bg-yellow-500 text-black px-6 py-3 rounded-lg flex items-center hover:bg-yellow-400 transition"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}

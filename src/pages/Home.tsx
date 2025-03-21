@@ -339,7 +339,7 @@ const Home = () => {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <motion.a
-                href="tel:+1234567890"
+                href="tel:+4172521024"
                 className="flex items-center bg-black text-white px-8 py-4 rounded-lg hover:bg-gray-800 transition"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
