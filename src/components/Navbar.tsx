@@ -26,7 +26,7 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            {['Home', 'About', 'Services', 'Contact'].map((item, index) => (
+            {['Home', 'About', 'Services', 'Contact', 'Gallery'].map((item, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
@@ -94,7 +94,7 @@ const Navbar = () => {
             >
               <X className="h-8 w-8" />
             </button>
-            {['Home', 'About', 'Services', 'Contact'].map((item, index) => (
+            {['Home', 'About', 'Services', 'Contact', 'Gallery'].map((item, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
