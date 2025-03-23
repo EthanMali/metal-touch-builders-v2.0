@@ -38,6 +38,11 @@ const Footer = () => {
                   Contact
                 </a>
               </li>
+              <li>
+                <a href="/gallery" className="text-gray-400 hover:text-white">
+                  Gallery
+                </a>
+              </li>
             </ul>
           </div>
 

@@ -36,7 +36,7 @@ const Home = () => {
         </div>
 
         <div className="container mx-auto p-4 md:p-6 lg:p-8 relative h-full flex items-center">
-          <div className="container mx-auto px-6">
+          <div className="container mx-auto px-6 mt-12">
             <motion.div
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
@@ -155,7 +155,7 @@ const Home = () => {
 
           {/* Service Area Tags */}
           <div className="flex flex-wrap gap-4">
-            {['Springfield, MO', 'St Louis, MO', 'Memphis, TN', 'Des Moines IA', 'Oklahoma City, OK', 'Wichita, KS'].map(
+            {['Missouri', 'Arkansas', 'Illinois', 'Kentucky', 'Tennessee', 'Oklahoma', 'Texas', 'Nebraska', 'Iowa', 'Indiana', 'Mississippi', 'Louisiana'].map(
               (location, index) => (
                 <div
                   key={index}
